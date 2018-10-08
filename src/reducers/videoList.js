@@ -1,4 +1,5 @@
 import Redux from 'redux';
+//console.log('redux:', Redux);
 
 var videoListReducer = (state = [], action) => {
   //TODO: define a reducer for the videoList field of our state.
