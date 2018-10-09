@@ -6,4 +6,17 @@ var VideoPlayerContainer = () => {};
 //TODO: define a VideoPlayerContainer component which will hook up your action
 //dispatchers with your VideoPlayer component props.
 
+const mapStateToProps = (state) => {
+  return {
+    // videos: state.videoList,
+    // handleVideoListEntryTitleClick: changeVideo
+  };
+};
+
+const mapDispatchToProps = (dispatch) => {
+  return {
+  //videos: handleVideoSearch
+  };
+};
+
 export default VideoPlayerContainer;
