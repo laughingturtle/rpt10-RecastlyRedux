@@ -1,7 +1,5 @@
 import { createMockStore } from 'redux-test-utils';
 import React from 'react';
-import { Provider } from 'react-redux';
-import { mount, shallow } from 'enzyme';
 import { shallowWithStore } from 'enzyme-redux';
 import { changeVideoList, mockReducer } from './reduxMocks.jsx';
 
