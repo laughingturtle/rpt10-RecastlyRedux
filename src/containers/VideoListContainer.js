@@ -23,6 +23,8 @@ const mapDispatchToProps = (dispatch) => {
   };
 };
 
+//const mapDispatchToProps = (dispatch) => {handleVideoListEntryTitleClick: changeVideo}
+
 // const mapDispatchToProps = () => {
 //   handleVideoListEntryTitleClick: changeVideo;
 // };

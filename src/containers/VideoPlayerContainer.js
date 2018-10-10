@@ -1,5 +1,6 @@
 import { connect } from 'react-redux';
 import VideoPlayer from '../components/VideoPlayer.js';
+import changeVideo from '../actions/currentVideo.js';
 
 //var VideoPlayerContainer = () => {};
 
@@ -13,10 +14,8 @@ const mapStateToProps = (state) => {
 };
 
 
-// const mapDispatchToProps = () => {
-//   handleVideoListEntryTitleClick: changeVideo;
-// };
+const mapDispatchToProps = (dispatch) => ({});
 
-const VideoPlayerContainer = connect(mapStateToProps)(VideoPlayer);
+const VideoPlayerContainer = connect(mapStateToProps, mapDispatchToProps)(VideoPlayer);
 
 export default VideoPlayerContainer;
