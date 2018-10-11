@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import VideoList from './../components/VideoList.js';
-import changeVideo from './../actions/currentVideo.js';
+//import changeVideo from './../actions/currentVideo.js';
 // import handleVideoSearch from './../actions/search.js;
 
 // var VideoListContainer = () => {};
