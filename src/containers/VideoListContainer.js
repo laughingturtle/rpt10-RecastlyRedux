@@ -5,9 +5,6 @@ import changeVideo from './../actions/currentVideo.js';
 
 // var VideoListContainer = () => {};
 
-//TODO: define a VideoListContainer component which will hook up your action
-// dispatchers with your VideoList component props.
-
 const mapStateToProps = (state) => {
   return {
     videos: state.videoList
@@ -22,10 +19,6 @@ const mapDispatchToProps = (dispatch) => {
     })
   };
 };
-
-// const mapDispatchToProps = () => {
-//   handleVideoListEntryTitleClick: changeVideo;
-// };
 
 const VideoListContainer = connect(mapStateToProps, mapDispatchToProps)(VideoList);
 
