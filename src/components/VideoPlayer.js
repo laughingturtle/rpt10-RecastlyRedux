@@ -1,5 +1,5 @@
 import React from 'react';
-import store from '../store/store.js';
+//import store from '../store/store.js';
 var VideoPlayer = ({video}) => (
   !video
     ? <div className="video-player">Please wait...</div>
